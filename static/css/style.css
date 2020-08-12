@@ -403,7 +403,7 @@ button h1{
 }
   
 .skip:focus, .skip:active{
-    top:15px;
+    top:20px;
     color: rgb(20, 65, 111);
     border: 2px solid rgb(20, 65, 111);
 }
