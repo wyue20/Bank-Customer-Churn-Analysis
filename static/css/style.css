@@ -369,7 +369,7 @@ input[type=text], select, textarea {
     display: inline-block;
     text-align: center;
     border-radius: 5px;
-    padding: 10px 22px;
+    padding: 16px 18px;
     /* cursor: url("../images/cursor2.cur"), default */
   }
 
