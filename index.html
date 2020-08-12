@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160824660-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-160824660-1');
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <title>Bank Customer Churn Analysis</title>
+    <!-- Bank Customer Churn Analysis -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="images/favicon.png"/>
+    
+</head>
+<body id = "index">
+    <!-- <div class="loader">Loading...</div> -->
+            </div>   
+    </div>
+    <a class = "skip" href="#main">Skip to Main Content</a>
+    <header id="header">
+        <div class="progress-container">
+            <div class="progress-bar" id="myBar"></div>
+        </div>
+        <script>
+            // scroll indicator
+            window.onscroll = function() {myFunction()};
+            
+            function myFunction() {
+                var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+                var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+                var scrolled = (winScroll / height) * 100;
+                document.getElementById("myBar").style.width = scrolled + "%";
+            }
+            </script>
+		<!--<img src="images/logo.png" alt="logo" id = "logo"> -->
+		<nav>
+			<ul class = "nav_links">
+				<!-- <li class = "item"><a class = "current" href="index.html">Analysis</a></li>
+				<li class = "item"><a href="about.html">About</a></li> -->
+			</ul> 
+		</nav>
+	</header>
+	<main id="main" tabindex=0>
+        <div id = "homepage">
+            <h2>Bank Customer Churn Analysis</h2>
+        </div>
+<!-- dropdown menu starts here -->
+        <div class="container">
+        <form name="submit" action="/" method="post">
+
+        <label for="geography">Geography</label>
+        <select name="geography" id="geography">
+            <option value="france">France</option>
+            <option value="spain">Spain</option>
+            <option value="germany">Germany</option>
+        </select>
+
+        <label for="gender">Gender</label>
+        <select name="gender" id="gender">
+            <option value="Female">Female</option>
+            <option value="male">Male</option>
+        </select>
+
+        <label for="tenure">Tenure</label>
+        <select name="tenure" id="tenure">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="numofpro">Number of Products</label>
+        <select name="numofpro" id="numofpro">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="crecard">Has Credit Card?</label>
+        <select name="crecard" id="crecard">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="active">Is Active Member? </label>
+        <select name="active" id="active">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+
+        <label for="score">Credit Score</label>
+        <input type="text" id="score" name="score" placeholder="Please enter the credit score">
+                
+        <label for="age">Age</label>
+        <input type="text" id="age" name="age" placeholder="Please enter the age">
+        
+        <label for="balance">Balance</label>
+        <input type="text" id="balance" name="balance" placeholder="Please enter the balance">
+
+        <label for="salary">Estimated Salary</label>
+        <input type="text" id="salary" name="salary" placeholder="Please enter the estimated salary">
+
+        <label for="Model">Model</label>
+        <select name="Model" id="Model">
+            <option value="RF">Random Forest Model</option>
+            <option value="GNB">Gaussian Naive Bayes</option>
+            <option value="SVM">Support Vector Machine</option>
+            <option value="ANN">Artificial Neural Network</option>
+        </select>
+
+        <br><br>
+            <button name="submit_button" type="submit" class="button" value="submit">Submit</button> <br></br>
+        </form>
+    </div>
+    <div id="section">
+        <p>
+            {% block main_box%}
+            {% endblock %}
+        </p>
+    </div>
+<!-- dropdown menu ends here -->
+        <!-- <ul>
+			<li>
+				<a class="back_top" href="#header">Back to the Top</a>
+			</li>
+		</ul>
+	</main> -->
+	<footer>
+		<div class=footer_list>
+			<p>Yue & Zixi&copy; 2020</p>
+			<!-- <div class="footer_icon">
+				<a href="https://github.com/wyue20"><img src="images/GitHub-Mark/PNG/GitHub-Mark-Light-32px.png" alt="github" class="github" aria-label="github"></a>
+			</div> -->
+		</div>
+    </footer>
+    <!-- <canvas id="nokey" width="800" height="800"></canvas> -->
+</body>
+</html>
