@@ -369,13 +369,13 @@ input[type=text], select, textarea {
     display: inline-block;
     text-align: center;
     border-radius: 5px;
-    padding: 15px 32px;
+    padding: 10px 22px;
     /* cursor: url("../images/cursor2.cur"), default */
   }
 
 .button h1{
     text-align: center;
-    font-size: 16px;
+    font-size: 18px;
     padding: 1px 10px;
 }
 
