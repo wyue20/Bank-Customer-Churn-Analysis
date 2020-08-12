@@ -37,6 +37,13 @@ a {
     padding: 20px;
   }
 
+#section{
+    text-align: center;
+    align-items: center;
+    font-size: 16pt;
+    margin-bottom: 20px;
+}
+
 /* loader */
 
 /* .loader {
@@ -389,7 +396,7 @@ button h1{
     left: 0;
     padding: 6px;
     position: absolute;
-    top: -30px;
+    top: -35px;
     -webkit-transition: top 1s ease-out;
     transition: top 1s ease-out;
     z-index: 2;
