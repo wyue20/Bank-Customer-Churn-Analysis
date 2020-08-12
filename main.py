@@ -67,7 +67,7 @@ def main_search():
                 return  render_template("main.html")
 
     elif request.method == 'GET':
-        return  render_template("main_wy.html")
+        return  render_template("index.html")
 
 if __name__ == '__main__':
     app.debug = True
