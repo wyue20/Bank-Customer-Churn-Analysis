@@ -14,9 +14,6 @@ import time
 import sqlite3
 import os
 from flask import Flask, request,render_template,redirect,jsonify,session,make_response,Response
-import plotly.graph_objs as go
-import plotly
-import matplotlib.pyplot as plt
 from sklearn import metrics
 from sklearn import svm
 from sklearn.externals import joblib
