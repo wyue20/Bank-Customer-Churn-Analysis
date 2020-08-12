@@ -44,6 +44,10 @@ a {
     margin-bottom: 45px;
 }
 
+#intro{
+    text-align: center;
+    align-items:center;}
+
 /* loader */
 
 /* .loader {
