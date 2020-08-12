@@ -363,7 +363,7 @@ input[type=text], select, textarea {
     resize: vertical 
   }
   
-button {
+.button {
     background-color:#a68c76;
     color: white;
     display: inline-block;
@@ -373,9 +373,9 @@ button {
     /* cursor: url("../images/cursor2.cur"), default */
   }
 
-button h1{
+.button h1{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     padding: 1px 10px;
 }
 
