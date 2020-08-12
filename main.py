@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-  
-from weibo import APIClient 
 import requests
 import json
 import urllib.request 
@@ -17,10 +16,7 @@ import os
 from flask import Flask, request,render_template,redirect,jsonify,session,make_response,Response
 import plotly.graph_objs as go
 import plotly
-from wordcloud import WordCloud
 import matplotlib.pyplot as plt
-import jieba  
-from datetime import timedelta
 from sklearn import metrics
 from sklearn import svm
 from sklearn.externals import joblib
