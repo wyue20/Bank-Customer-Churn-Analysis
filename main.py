@@ -17,6 +17,7 @@ from flask import Flask, request,render_template,redirect,jsonify,session,make_r
 from sklearn import metrics
 from sklearn import svm
 from sklearn.externals import joblib
+import keres
 
 app = Flask(__name__)
 app.secret_key = '1415926535abcdefg'
