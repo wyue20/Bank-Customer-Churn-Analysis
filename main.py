@@ -3,7 +3,7 @@ import pandas as pd
 import os
 from flask import Flask, request,render_template,redirect,jsonify,session,make_response,Response
 import joblib
-from keras.models import load_model  
+from tensorflow.keras.models import load_model  
 
 app = Flask(__name__)
 app.secret_key = '1415926535abcdefg'
