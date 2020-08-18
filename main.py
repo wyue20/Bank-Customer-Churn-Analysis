@@ -99,16 +99,7 @@ def main_search():
                     return  render_template("content_result.html",result=result)
 
     elif request.method == 'GET':
-        return  render_template("main_wy.html")
-
-if __name__ == '__main__':
-    app.run()                    return  render_template("content_result.html",result=result)
-                elif(Model=='ANN'):
-                    result=ann_model(df)
-                    return  render_template("content_result.html",result=result)
-
-    elif request.method == 'GET':
-        return  render_template("main_wy.html")
+        return  render_template("index.html")
 
 if __name__ == '__main__':
     app.run()
