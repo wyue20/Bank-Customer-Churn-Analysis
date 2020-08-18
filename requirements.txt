@@ -1,9 +1,0 @@
-lxml==4.5.0
-pandas==1.0.3
-requests==2.23.0
-Flask==1.1.2
-beautifulsoup4==4.9.1
-scikit_learn==0.22.1
-gunicorn==19.7.1
-tensorflow==2.1.0
-keres==2.3.1
